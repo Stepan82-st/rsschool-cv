@@ -17,4 +17,4 @@ During my studies I got acquainted with [JavaScript], [React], [MySQL], [HTML], 
 -No development experience
 - BSTU mechanical engineer, BSUIR - software engineer.
 -English at the time of writing this - - -
-Level A1 document.
+English level A1.
