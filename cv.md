@@ -1,6 +1,6 @@
 # BRYL STEPAN
 
-## Junior Frontend Developer
+## Frontend Developer
 
 ![MyPhoto](https://avatars.githubusercontent.com/u/53449161?s=400&u=562212b5eaff664f958aa78e1f3f2f49eb0efd89&v=4)
 
@@ -13,7 +13,6 @@
 ## About Me
 
 My goal is to change my job.
- I'm like reading books and teach my children.
 
 ## My skills
 
