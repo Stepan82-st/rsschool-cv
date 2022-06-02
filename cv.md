@@ -9,7 +9,6 @@
 * Phone: +375291611662
 * Discord: Stepan#8061
 * Email: bryl.step@tut.by
-* Telegram: @StefaN
 
 ## About Me
 
