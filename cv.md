@@ -101,7 +101,7 @@ function date(dateString){
 
 * IIT BGUIR
 * [JavaScript Manual](https://learn.javascript.ru/) -  in progress
-* RS Schools Course (JavaScript/Front-end. Stage 0) -  in progress
+* [RS Schools Course](https://docs.rs.school/#/) -  in progress
 
 ## Languages
 
