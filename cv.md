@@ -100,8 +100,8 @@ function date(dateString){
 ## Education
 
 * IIT BGUIR
-* [JavaScript Manual](https://learn.javascript.ru/) -  in progress
-* RS Schools Course (JavaScript/Front-end. Stage 0) -  in progress
+* [JavaScript Manual](https://learn.javascript.ru/)
+* [RS Schools Course](https://docs.rs.school/#/) 
 
 ## Languages
 
