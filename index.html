@@ -116,54 +116,17 @@
               <article>
                 <h2>How to create a function that changes the Image?</h2>
                 <code id="code">
-                   <?php> <br>
-                namespace App\Libs;<br>
-                
-                use Image;<br>
-                use Auth;<br>
-                
-                class Imag{<br>
-                  public function url($path = null, $dirrectory = null, $name = null){<br>
-                    if($path != null){<br>
-                    if($dirrectory != null){<br>
-                      $dir = public_path() . $dirrectory;<br>
-                    }else{<br>
-                      if(!Auth::guest()){<br>
-                    $dir = public_path() . '/uploads/'. Auth::user()->id . '/';<br>
-                    }else{<br>
-                    $dir = public_path() . '/uploads/0/';<br>
-                    }<br>
-                      if(!file_exists($dir)){<br>
-                     mkdir($dir, 0777, true);<br>
-                    }<br>
-                    }<br>
-                    if($name != null){<br>
-                      $filename = $name;<br>
-                    }else{<br>
-                      $filename = date('y_m_d_h_i_s').'.jpg';<br>
-                    }<br>
-                    $img = Image::make($path);<br>
-                    $img->resize(600, null, function ($constraint) {<br>
-                      $constraint->aspectRatio();<br>
-                    });<br>
-                    $img->save($dir . $filename);<br>
-                    $img->resize(300, null, function ($constraint) {<br>
-                      $constraint->aspectRatio();<br>
-                    });<br>
-                    $pic_small = 's_'. $filename;<br>
-                    $img->save($dir . $pic_small);<br>
-                        $img->resize(100, null, function ($constraint) {<br>
-                      $constraint->aspectRatio();<br>
-                    });<br>
-                    $pic_small2 = 'ss_'. $filename;<br>
-                    $img->save($dir . $pic_small2);<br>
-                    return $filename;<br>
-                  }else{<br>
-                    return false;<br>
-                  }<br>
-                  }<br>
-                }<br>
-              
+                  function fFibo(n){
+    let a = 1;
+  let b = 1;
+  for (let i = 3; i <= n; i++) {
+    let c = a + b;
+    a = b;
+    b = c;
+  }
+  return b;
+}
+
               </code>
               </article>
     
